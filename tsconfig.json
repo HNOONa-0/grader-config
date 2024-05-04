@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es6",
+    "downlevelIteration": true,
+    "strict": true,
+    "lib": ["DOM", "ES5", "ScriptHost", "ES2020.Promise", "dom.iterable"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "listFiles": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "noImplicitAny": false
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.vue"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
